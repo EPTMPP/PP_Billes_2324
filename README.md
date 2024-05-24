@@ -69,5 +69,4 @@ Julien Roduit - julien.roduit@edu.vs.ch
 
 ## Lien du projet
 
-Lien du projet : [[https://github.com/Sebastian0211-vs/GitPP2324](https://github.com/Sebastian0211-vs/GitPP2324)
-](https://github.com/EPTMPP/PP_Billes_2324)
+Lien du projet : [[https://github.com/Sebastian0211-vs/GitPP2324](https://github.com/Sebastian0211-vs/GitPP2324)]
