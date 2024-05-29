@@ -27,7 +27,7 @@ for pin in gpio_pins_to_free:
     os.system(f"sudo raspi-gpio set {pin} ip")
 
 # Configuration du système de journalisation
-logging.basicConfig(filename=config['logging']['file_path'],filemode=config['logging']['filemode'],format=config['logging']['format'], level=logging.getLevelName(config['logging']['log_level']))
+logging.basicConfig(filename=config['logging']['file_path'], level=logging.getLevelName(config['logging']['log_level']))
 
 # Variables globales pour la connexion au PLC
 CONNECTED_PLC = None
@@ -284,7 +284,7 @@ def reset_pin(position):
     except Exception as e:
         return jsonify(error=str(e)), 500
     
-# Route pour activer l'animation "rainbow" sur toutes les positions 
+# ROute pour activer l'animation "rainbow" sur toutes les positions 
 @app.route('/rainbow', methods=['GET'])
 def rainbow_all():
     try:
@@ -346,6 +346,14 @@ def rainbow(position):
 @app.route('/all/<string:couleur>', methods=['GET'])
 def all_pins_color(couleur):
     """Appliquer la couleur spécifiée à toutes les positions."""
+    try:
+        for position in valid_positions:
+            for color in color_list:
+                pin_LOW(position, color)
+
+    except Exception as e:
+        return jsonify(error=str(e)), 500
+
     try:
         if couleur in color_combinations:
             for position in valid_positions:

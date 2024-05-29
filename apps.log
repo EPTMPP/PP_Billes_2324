@@ -1,0 +1,93 @@
+apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+apscheduler.scheduler - INFO - Added job "job" to job store "default"
+apscheduler.scheduler - INFO - Scheduler started
+root - INFO - Application started
+apscheduler.executors.default - INFO - Running job "job (trigger: date[2024-05-29 12:34:10 CEST], next run at: 2024-05-29 12:34:10 CEST)" (scheduled at 2024-05-29 12:34:10.041082+02:00)
+apscheduler.scheduler - INFO - Removed job 5ae001fcb39e42419a482797b7d8c8c9
+root - INFO - Job started
+mysql.connector - INFO - package: mysql.connector.plugins
+mysql.connector - INFO - plugin_name: caching_sha2_password
+mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.0.2:8000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /check_possible/172.16.2.4 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CA6F10>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /multi/True (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CBA090>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /multinbr/False (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CBB810>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_demande_mode_multi (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CE3550>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_alarme_urgence (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CF5BD0>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_alarme_obstruation (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CF63D0>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_quittance_obstruation (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CFD510>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_quittance_urgence (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CFDD10>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': '0'}
+root - ERROR - {'message': '0'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mw_master_nb_billes_sortie_normal (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CE3D50>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': '0'}
+root - ERROR - {'message': '0'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mw_master_nb_billes_sortie_secours (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CD3310>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': '0'}
+root - ERROR - {'message': '0'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mw_master_nb_billes_entree (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CFE150>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_quittance_surveillance_bille (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CFD310>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_API_C1_attention (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CF6D10>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_API_C1_alerte (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CF7C10>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_API_C2_attention (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CFFB90>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - function missing required argument 'filename' (pos 1)
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_API_C2_alerte (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AEA358C90>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_API_C3_attention (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CD2C90>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_API_C3_alerte (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CE0F50>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_API_C4_attention (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CFD390>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_API_C4_alerte (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AEA35A010>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_pause (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CF4750>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_start (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CFD150>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_quittance_distribution (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CFE5D0>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_quittance_sortie_secours (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AEA35AE90>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - {'message': 'False'}
+root - ERROR - {'message': 'False'}
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /trigger/Mx_master_alarme_surveillance_bille (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CFEF10>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /compteur_bille (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9C9C090>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /deconnection (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9CBA050>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
+root - INFO - Job finished
+apscheduler.scheduler - INFO - Added job "job" to job store "default"
+apscheduler.executors.default - INFO - Job "job (trigger: date[2024-05-29 12:34:10 CEST], next run at: 2024-05-29 12:34:10 CEST)" executed successfully
+apscheduler.executors.default - INFO - Running job "job (trigger: date[2024-05-29 12:43:38 CEST], next run at: 2024-05-29 12:43:38 CEST)" (scheduled at 2024-05-29 12:43:38.819766+02:00)
+apscheduler.scheduler - INFO - Removed job 39b5b0b4be7348aca620008308506445
+root - INFO - Job started
+root - ERROR - HTTPConnectionPool(host='172.16.2.2', port=8000): Max retries exceeded with url: /check_possible/172.16.2.4 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020AE9C9D990>, 'Connection to 172.16.2.2 timed out. (connect timeout=None)'))
