@@ -61,13 +61,13 @@ Distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus d'informatio
 
 ## Équipe
 
-- **Chef de projet** : Sebastian Morsch - sebastian.morsch@edu.vs.ch
-- **Sous-chef** : Louis Schanen - louis.schanen@edu.vs.ch
-- **Dessinateur de chat** : Quelqu'un de très peu important (Nieh)
+- **Gourou Net and Light** : Sebastian Morsch - sebastian.morsch@edu.vs.ch
+- **Sous-Gourou** : Louis Schanen - louis.schanen@edu.vs.ch
+- **Soutien Moral** : Quelqu'un de très peu important (Nieh)
 - **Responsable backoffice** : Keenan Prusse - keenan.prusse@edu.vs.ch
 - **Architecte de l'interface web** : Gaëtan Veuillet - gaetan.veuillet@edu.vs.ch
 - **Stagiaire base de données** : Benno Weber - benno.weber@edu.vs.ch
-- **Responsable qualité** : Julien Roduit - julien.roduit@edu.vs.ch
+- **Responsable qualité / maître de la lumière** : Julien Roduit - julien.roduit@edu.vs.ch
 
 ## Lien du projet
 
