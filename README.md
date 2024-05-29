@@ -61,13 +61,14 @@ Distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus d'informatio
 
 ## Équipe
 
-- **Gourou Net and Light** : Sebastian Morsch - sebastian.morsch@edu.vs.ch
-- **Sous-Gourou** : Louis Schanen - louis.schanen@edu.vs.ch
-- **Soutien Moral** : Timothy Ramsey - timothy.ramsey@edu.vs.ch
-- **Responsable backoffice** : Keenan Prusse - keenan.prusse@edu.vs.ch
-- **Architecte de l'interface web** : Gaëtan Veuillet - gaetan.veuillet@edu.vs.ch
+- **Tuteur Net and Light** : Sebastian Morsch - sebastian.morsch@edu.vs.ch
+- **Opérateur principal** : Louis Schanen - louis.schanen@edu.vs.ch
+- **Responsable moral** : Timothy Ramsey - timothy.ramsey@edu.vs.ch
+- **Technicien backoffice** : Keenan Prusse - keenan.prusse@edu.vs.ch
+- **Utilisateur interface web** : Gaëtan Veuillet - gaetan.veuillet@edu.vs.ch
+- **Expert qualité / maître de la lumière** : Julien Roduit - julien.roduit@edu.vs.ch
 - **Stagiaire base de données** : Benno Weber - benno.weber@edu.vs.ch
-- **Responsable qualité / maître de la lumière** : Julien Roduit - julien.roduit@edu.vs.ch
+
 
 ## Lien du projet
 
