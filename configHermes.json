@@ -15,11 +15,13 @@
         "Mw_master_nb_billes_sortie_secours", 
         "Mw_master_nb_billes_entree"
     ],
-    "id_chassis": 0,
+
     "possibles_modes": ["mono", "multi"],
     "logging": {
         "file_path": "/home/pi/Desktop/hermes.log",
-        "log_level": "INFO"
+        "log_level": "INFO",
+        "filemode": "w",
+        "format": "%(name)s - %(levelname)s - %(message)s"
     },
     "GPIO": {
         "led_matrix": {

@@ -27,7 +27,7 @@ for pin in gpio_pins_to_free:
     os.system(f"sudo raspi-gpio set {pin} ip")
 
 # Configuration du système de journalisation
-logging.basicConfig(filename=config['logging']['file_path'], level=logging.getLevelName(config['logging']['log_level']))
+logging.basicConfig(filename=config['logging']['file_path'],filemode=config['logging']['filemode'],format=config['logging']['format'], level=logging.getLevelName(config['logging']['log_level']))
 
 # Variables globales pour la connexion au PLC
 CONNECTED_PLC = None
@@ -48,7 +48,6 @@ app = Flask(__name__)
 # Chargement des configurations additionnelles
 var_api_out = config['Var_API_Out']
 var_api_in = config['Var_API_In']
-id_chassis = config['id_chassis']
 possibles_modes = config['possibles_modes']
 
 # Configuration des pins GPIO pour la matrice LED
@@ -285,7 +284,7 @@ def reset_pin(position):
     except Exception as e:
         return jsonify(error=str(e)), 500
     
-# ROute pour activer l'animation "rainbow" sur toutes les positions 
+# Route pour activer l'animation "rainbow" sur toutes les positions 
 @app.route('/rainbow', methods=['GET'])
 def rainbow_all():
     try:
