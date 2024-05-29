@@ -71,4 +71,4 @@ Distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus d'informatio
 
 ## Lien du projet
 
-[https://github.com/Sebastian0211-vs/GitPP2324](https://github.com/Sebastian0211-vs/GitPP2324)
+.[https://github.com/EPTMPP/PP_Billes_2324](https://github.com/EPTMPP/PP_Billes_2324)
