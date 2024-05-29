@@ -63,7 +63,7 @@ Distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus d'informatio
 
 - **Gourou Net and Light** : Sebastian Morsch - sebastian.morsch@edu.vs.ch
 - **Sous-Gourou** : Louis Schanen - louis.schanen@edu.vs.ch
-- **Soutien Moral** : Quelqu'un de très peu important (Nieh)
+- **Soutien Moral** : Timothy Ramsey - timothy.ramsey@edu.vs.ch
 - **Responsable backoffice** : Keenan Prusse - keenan.prusse@edu.vs.ch
 - **Architecte de l'interface web** : Gaëtan Veuillet - gaetan.veuillet@edu.vs.ch
 - **Stagiaire base de données** : Benno Weber - benno.weber@edu.vs.ch
