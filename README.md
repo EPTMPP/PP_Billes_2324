@@ -62,12 +62,12 @@ Distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus d'informatio
 ## Équipe
 
 - **Titan des Réseaux et Architecte Lumineux** : Sebastian Morsch - sebastian.morsch@edu.vs.ch
-- **Opérateur principal** : Louis Schanen - louis.schanen@edu.vs.ch
-- **Responsable moral** : Timothy Ramsey - timothy.ramsey@edu.vs.ch
+- **Overlord Opérationnel Suprême** : Louis Schanen - louis.schanen@edu.vs.ch
+- **Régent de l'Intégrité Éthique** : Timothy Ramsey - timothy.ramsey@edu.vs.ch
 - **Technocrate des Systèmes Backoffice** : Keenan Prusse - keenan.prusse@edu.vs.ch
 - **Ultimate Souverain des Réalités Interactives** : Gaëtan Veuillet - gaetan.veuillet@edu.vs.ch
 - **Empereur de la Qualité et Souverain de la Lumière** : Julien Roduit - julien.roduit@edu.vs.ch
-- **Stagiaire base de données** : Benno Weber - benno.weber@edu.vs.ch
+- **Souffleur de Poussière sur les Données** : Benno Weber - benno.weber@edu.vs.ch
 
 
 ## Lien du projet
